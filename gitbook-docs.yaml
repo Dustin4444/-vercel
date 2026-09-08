@@ -1,0 +1,17 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Dct555
+  structure:
+    - type: space
+      key: space-1
+      title: Docs
+      path: docs
+      content:
+        directory: ./docs
+    - type: space
+      key: space-2
+      title: Dustin's Organization API
+      path: dustins-organization-api
+      default: true
+      content:
+        directory: ./dustins-organization-api
