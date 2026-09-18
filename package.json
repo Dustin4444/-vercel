@@ -12,5 +12,10 @@
   },
   "devDependencies": {
     "@types/node": "^22.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "raw-body@<=4.0.0": "4.0.0"
+    }
   }
 }
